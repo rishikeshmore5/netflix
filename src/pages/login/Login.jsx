@@ -8,7 +8,7 @@ export default function Login() {
   const SetUser = () => {
     sessionStorage.setItem("USER", true);
     console.log("login");
-    navigate("/");
+    navigate("/netflix");
   };
 
   return (

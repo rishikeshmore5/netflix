@@ -42,7 +42,7 @@ export default function Watch() {
   });
   return (
     <div className="watch">
-      <Link to="/">
+      <Link to="/netflix">
         <div className="back">
           <ArrowBackOutlined />
           Home
